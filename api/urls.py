@@ -26,5 +26,3 @@ urlpatterns = [
     path('api/create-deal/', CreateDeal, name='create-deal'),
 ]
 
-if settings.DEBUG:
-    urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
